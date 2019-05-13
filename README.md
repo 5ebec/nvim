@@ -1,6 +1,6 @@
 # my nvim
 ## usage
-1. Install neovim nightly
+1. Install neovim nightly  
 https://github.com/neovim/neovim/releases/nightly
 
 2. Clone this repo
