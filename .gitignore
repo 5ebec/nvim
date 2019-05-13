@@ -1,0 +1,4 @@
+nvim.appimage
+tmp/
+dein/
+.DS_Store

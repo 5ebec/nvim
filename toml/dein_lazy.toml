@@ -1,0 +1,11 @@
+[[plugins]]
+repo = 'Shougo/neco-syntax'
+on_event = 'InsertEnter'
+
+[[plugins]]
+repo = 'Shougo/neosnippet'
+hook_source = '''
+source ~/.config/nvim/plugins/neosnippet.vim
+'''
+on_event = 'InsertEnter'
+depends = ['neosnippet-snippets']
