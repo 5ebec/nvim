@@ -9,3 +9,10 @@ source ~/.config/nvim/plugins/neosnippet.vim
 '''
 on_event = 'InsertEnter'
 depends = ['neosnippet-snippets']
+
+[[plugins]]
+repo = 'mattn/emmet-vim'
+on_ft = ['html', 'htm', 'md', 'markdown']
+hook_source = '''
+source ~/.config/nvim/plugins/emmet.vim
+'''

@@ -45,6 +45,7 @@ set tabstop=2
 set nowrapscan
 set ignorecase
 set autoindent
+set cursorline
 set matchtime=1
 set history=1000
 set shiftwidth=2
@@ -125,10 +126,3 @@ nnoremap < <<
 nnoremap x "_x
 nnoremap s "_s
 inoremap <C-]> <ESC><Right>
-
-"fileType
-augroup fileType
-  autocmd!
-  autocmd BufNewFile,BufRead *.ws setlocal noautoindent noexpandtab tabstop=1 listchars=tab:–~,trail:·,eol:¬,extends:»,precedes:«,nbsp:%
-augroup END
-
