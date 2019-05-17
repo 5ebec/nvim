@@ -1,7 +1,6 @@
 # my nvim
 ## usage
 1. Install neovim nightly  
-https://github.com/neovim/neovim/wiki/Installing-Neovim  
 https://github.com/neovim/neovim/releases/nightly  
 
 2. Install pynvim
